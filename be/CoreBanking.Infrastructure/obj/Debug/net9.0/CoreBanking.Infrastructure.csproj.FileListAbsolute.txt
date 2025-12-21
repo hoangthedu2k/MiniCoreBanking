@@ -1,0 +1,17 @@
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\obj\Debug\net9.0\CoreBanking.Infrastructure.csproj.AssemblyReference.cache
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\obj\Debug\net9.0\CoreBanking.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\obj\Debug\net9.0\CoreBanking.Infrastructure.AssemblyInfoInputs.cache
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\obj\Debug\net9.0\CoreBanking.Infrastructure.AssemblyInfo.cs
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\obj\Debug\net9.0\CoreBanking.Infrastructure.csproj.CoreCompileInputs.cache
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\bin\Debug\net9.0\CoreBanking.Infrastructure.deps.json
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\bin\Debug\net9.0\CoreBanking.Infrastructure.dll
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\bin\Debug\net9.0\CoreBanking.Infrastructure.pdb
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\bin\Debug\net9.0\CoreBanking.Application.dll
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\bin\Debug\net9.0\CoreBanking.Domain.dll
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\bin\Debug\net9.0\CoreBanking.Domain.pdb
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\bin\Debug\net9.0\CoreBanking.Application.pdb
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\obj\Debug\net9.0\CoreBank.040AF1D9.Up2Date
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\obj\Debug\net9.0\CoreBanking.Infrastructure.dll
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\obj\Debug\net9.0\refint\CoreBanking.Infrastructure.dll
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\obj\Debug\net9.0\CoreBanking.Infrastructure.pdb
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\obj\Debug\net9.0\ref\CoreBanking.Infrastructure.dll

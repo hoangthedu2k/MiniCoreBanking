@@ -1,0 +1,15 @@
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\bin\Debug\net9.0\CoreBanking.Application.deps.json
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\bin\Debug\net9.0\CoreBanking.Application.dll
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\bin\Debug\net9.0\CoreBanking.Application.pdb
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\bin\Debug\net9.0\CoreBanking.Domain.dll
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\bin\Debug\net9.0\CoreBanking.Domain.pdb
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\obj\Debug\net9.0\CoreBanking.Application.csproj.AssemblyReference.cache
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\obj\Debug\net9.0\CoreBanking.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\obj\Debug\net9.0\CoreBanking.Application.AssemblyInfoInputs.cache
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\obj\Debug\net9.0\CoreBanking.Application.AssemblyInfo.cs
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\obj\Debug\net9.0\CoreBanking.Application.csproj.CoreCompileInputs.cache
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\obj\Debug\net9.0\CoreBank.F16E135B.Up2Date
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\obj\Debug\net9.0\CoreBanking.Application.dll
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\obj\Debug\net9.0\refint\CoreBanking.Application.dll
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\obj\Debug\net9.0\CoreBanking.Application.pdb
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\obj\Debug\net9.0\ref\CoreBanking.Application.dll
