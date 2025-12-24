@@ -1,4 +1,5 @@
-﻿using CoreBanking.Domain.Entities;
+﻿using CoreBanking.Application.Common.Interfaces;
+using CoreBanking.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace CoreBanking.Infrastructure.Data
 {
-    public class CoreBankingDbContext : DbContext
+    public class CoreBankingDbContext : DbContext, IApplicationDbContext
     {
         public CoreBankingDbContext(DbContextOptions<CoreBankingDbContext> options) : base(options)
         {

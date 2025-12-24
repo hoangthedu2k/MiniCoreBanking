@@ -1,4 +1,5 @@
-﻿using CoreBanking.Infrastructure.Data;
+﻿using CoreBanking.Application.Common.Interfaces;
+using CoreBanking.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,6 +20,7 @@ namespace CoreBanking.Infrastructure
             {
                 options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"));
             });
+           services.AddScoped<IApplicationDbContext>(provider => provider.GetRequiredService<CoreBankingDbContext>());
             return services;
         }
     }

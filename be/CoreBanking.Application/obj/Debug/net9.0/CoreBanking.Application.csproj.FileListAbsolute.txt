@@ -13,3 +13,4 @@ D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\obj\Debug\net9.
 D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\obj\Debug\net9.0\refint\CoreBanking.Application.dll
 D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\obj\Debug\net9.0\CoreBanking.Application.pdb
 D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\obj\Debug\net9.0\ref\CoreBanking.Application.dll
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Application\obj\Debug\net9.0\CoreBanking.Application.sourcelink.json

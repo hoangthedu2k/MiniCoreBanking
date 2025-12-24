@@ -9,3 +9,4 @@ D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Domain\obj\Debug\net9.0\Cor
 D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Domain\obj\Debug\net9.0\refint\CoreBanking.Domain.dll
 D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Domain\obj\Debug\net9.0\CoreBanking.Domain.pdb
 D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Domain\obj\Debug\net9.0\ref\CoreBanking.Domain.dll
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Domain\obj\Debug\net9.0\CoreBanking.Domain.sourcelink.json

@@ -1,44 +1,35 @@
+using CoreBanking.Application;
 using CoreBanking.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddInfrastructure(builder.Configuration);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+// 1. ??ng kı các Layer (Clean Architecture)
+builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddApplication();
+
+// 2. ??ng kı Controllers
+builder.Services.AddControllers();
+
+// 3. ??ng kı Swagger (Dùng Swashbuckle - Giao di?n chu?n d? dùng)
+// L?u ı: N?u báo l?i ?? ? ?ây, b?n c?n cài gói: dotnet add package Swashbuckle.AspNetCore
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    // 4. Kích ho?t giao di?n Swagger UI
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+app.UseAuthorization(); // (Nên có dòng này dù ch?a dùng, ?? sau này ?? quên)
 
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+// 5. QUAN TR?NG: Ph?i có dòng này thì AccountsController m?i ch?y ???c!
+app.MapControllers();
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

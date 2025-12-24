@@ -15,3 +15,4 @@ D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\obj\Debug\ne
 D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\obj\Debug\net9.0\refint\CoreBanking.Infrastructure.dll
 D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\obj\Debug\net9.0\CoreBanking.Infrastructure.pdb
 D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\obj\Debug\net9.0\ref\CoreBanking.Infrastructure.dll
+D:\study_tech\angular\MiniCoreBanking\be\CoreBanking.Infrastructure\obj\Debug\net9.0\CoreBanking.Infrastructure.sourcelink.json
