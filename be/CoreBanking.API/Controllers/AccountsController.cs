@@ -1,4 +1,5 @@
 ﻿using CoreBanking.Application.Features.Accounts.Commands;
+using CoreBanking.Application.Features.Accounts.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,4 +24,19 @@ public class AccountsController : ControllerBase
         var accountNumber = await _mediator.Send(command);
         return Ok(new { AccountNumber = accountNumber });
     }
-}
+    [HttpGet("{accountNumber}")]
+    public async Task<IActionResult> GetByAccountNumber( string accountNumber)
+    {
+        try
+        {
+            var query = new GetAccountByNumberQuery(accountNumber);
+            var accountDto = await _mediator.Send(query);
+            return Ok(accountDto);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(new { Error = ex.Message });
+        }
+
+    }
+}   
