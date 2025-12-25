@@ -18,10 +18,12 @@ public record TransferMoneyCommand(
 public class TransferMoneyCommandHandler : IRequestHandler<TransferMoneyCommand, string>
 {
     private readonly IApplicationDbContext _context;
+    private readonly INotificationService _notificationService;
 
-    public TransferMoneyCommandHandler(IApplicationDbContext context)
+    public TransferMoneyCommandHandler(IApplicationDbContext context, INotificationService notificationService)
     {
         _context = context;
+        _notificationService = notificationService;
     }
 
     public async Task<string> Handle(TransferMoneyCommand request, CancellationToken cancellationToken)
@@ -61,13 +63,18 @@ public class TransferMoneyCommandHandler : IRequestHandler<TransferMoneyCommand,
         };
 
         _context.Transactions.Add(transaction);
-
+       
         // --- 4. LƯU XUỐNG DB (COMMIT) ---
         // SaveChangesAsync trong EF Core mặc định là 1 Transaction Database.
         // Nếu dòng này lỗi -> Cả Debit, Credit, và Transaction đều bị Rollback (Hủy) hết.
         // Tiền sẽ an toàn 100%.
         await _context.SaveChangesAsync(cancellationToken);
+        // Báo cho người gửi (bị trừ tiền)
+        await _notificationService.SendBalanceUpdate(fromAccount.AccountNumber, fromAccount.Balance);
 
+        // Báo cho người nhận (được cộng tiền)
+        await _notificationService.SendBalanceUpdate(toAccount.AccountNumber, toAccount.Balance);
+        // ----------------------------------------------
         return transaction.Id;
     }
 }

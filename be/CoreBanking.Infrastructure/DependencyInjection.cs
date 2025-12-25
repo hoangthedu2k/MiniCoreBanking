@@ -20,7 +20,11 @@ namespace CoreBanking.Infrastructure
             {
                 options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"));
             });
+
            services.AddScoped<IApplicationDbContext>(provider => provider.GetRequiredService<CoreBankingDbContext>());
+
+            services.AddSignalR();
+            services.AddScoped<INotificationService, Services.SignalRNotificationService>();
             return services;
         }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TXXmiRfQC4s=",
+  "dgSpecHash": "TD8zyaAB8tE=",
   "success": true,
-  "projectFilePath": "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Application\\CoreBanking.Application.csproj",
+  "projectFilePath": "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Application\\CoreBanking.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hoang\\.nuget\\packages\\mediatr\\14.0.0\\mediatr.14.0.0.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

@@ -1,35 +1,46 @@
-using CoreBanking.Application;
+Ôªøusing CoreBanking.Application;
 using CoreBanking.Infrastructure;
+using CoreBanking.Infrastructure.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 1. ??ng k˝ c·c Layer (Clean Architecture)
+// 1. ??ng k√Ω c√°c Layer (Clean Architecture)
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
 
-// 2. ??ng k˝ Controllers
+// 2. ??ng k√Ω Controllers
 builder.Services.AddControllers();
 
-// 3. ??ng k˝ Swagger (D˘ng Swashbuckle - Giao di?n chu?n d? d˘ng)
-// L?u ˝: N?u b·o l?i ?? ? ?‚y, b?n c?n c‡i gÛi: dotnet add package Swashbuckle.AspNetCore
+// 3. ??ng k√Ω Swagger (D√πng Swashbuckle - Giao di?n chu?n d? d√πng)
+// L?u √Ω: N?u b√°o l?i ?? ? ?√¢y, b?n c?n c√†i g√≥i: dotnet add package Swashbuckle.AspNetCore
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+// 1. C·∫§U H√åNH CORS (S·ª≠a l·∫°i ƒëo·∫°n n√†y n·∫øu ch∆∞a chu·∫©n)
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngular", policy =>
+    {
+        policy.WithOrigins("http://localhost:4200") // URL Angular
+              .AllowAnyMethod()
+              .AllowAnyHeader()
+              .AllowCredentials(); // <--- B·∫Øt bu·ªôc cho SignalR
+    });
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    // 4. KÌch ho?t giao di?n Swagger UI
+    // 4. K√≠ch ho?t giao di?n Swagger UI
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization(); // (NÍn cÛ dÚng n‡y d˘ ch?a d˘ng, ?? sau n‡y ?? quÍn)
+app.UseAuthorization(); // (N√™n c√≥ d√≤ng n√†y d√π ch?a d√πng, ?? sau n√†y ?? qu√™n)
 
-// 5. QUAN TR?NG: Ph?i cÛ dÚng n‡y thÏ AccountsController m?i ch?y ???c!
+// 5. QUAN TR?NG: Ph?i c√≥ d√≤ng n√†y th√¨ AccountsController m?i ch?y ???c!
 app.MapControllers();
-
+app.MapHub<NotificationHub>("/notificationHub"); // ƒê∆∞·ªùng d·∫´n k·∫øt n·ªëi
 app.Run();

@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Infrastructure\\CoreBanking.Infrastructure.csproj": {}
+    "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Infrastructure\\CoreBanking.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Application\\CoreBanking.Application.csproj": {
+    "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Application\\CoreBanking.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Application\\CoreBanking.Application.csproj",
+        "projectUniqueName": "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Application\\CoreBanking.Application.csproj",
         "projectName": "CoreBanking.Application",
-        "projectPath": "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Application\\CoreBanking.Application.csproj",
+        "projectPath": "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Application\\CoreBanking.Application.csproj",
         "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-        "outputPath": "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Application\\obj\\",
+        "outputPath": "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -29,16 +28,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/snsSI7fI1ptMYuH5PMmtZ386n8uqtmDHgyXqYsAZ9jGIw2RzQZ/api": {}
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Domain\\CoreBanking.Domain.csproj": {
-                "projectPath": "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Domain\\CoreBanking.Domain.csproj"
+              "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Domain\\CoreBanking.Domain.csproj": {
+                "projectPath": "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Domain\\CoreBanking.Domain.csproj"
               }
             }
           }
@@ -53,7 +51,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -84,27 +82,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Domain\\CoreBanking.Domain.csproj": {
+    "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Domain\\CoreBanking.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Domain\\CoreBanking.Domain.csproj",
+        "projectUniqueName": "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Domain\\CoreBanking.Domain.csproj",
         "projectName": "CoreBanking.Domain",
-        "projectPath": "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Domain\\CoreBanking.Domain.csproj",
+        "projectPath": "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Domain\\CoreBanking.Domain.csproj",
         "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-        "outputPath": "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Domain\\obj\\",
+        "outputPath": "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -113,9 +110,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/snsSI7fI1ptMYuH5PMmtZ386n8uqtmDHgyXqYsAZ9jGIw2RzQZ/api": {}
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
@@ -133,7 +129,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -154,27 +150,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Infrastructure\\CoreBanking.Infrastructure.csproj": {
+    "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Infrastructure\\CoreBanking.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Infrastructure\\CoreBanking.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Infrastructure\\CoreBanking.Infrastructure.csproj",
         "projectName": "CoreBanking.Infrastructure",
-        "projectPath": "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Infrastructure\\CoreBanking.Infrastructure.csproj",
+        "projectPath": "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Infrastructure\\CoreBanking.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-        "outputPath": "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Infrastructure\\obj\\",
+        "outputPath": "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -183,19 +178,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/snsSI7fI1ptMYuH5PMmtZ386n8uqtmDHgyXqYsAZ9jGIw2RzQZ/api": {}
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Application\\CoreBanking.Application.csproj": {
-                "projectPath": "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Application\\CoreBanking.Application.csproj"
+              "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Application\\CoreBanking.Application.csproj": {
+                "projectPath": "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Application\\CoreBanking.Application.csproj"
               },
-              "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Domain\\CoreBanking.Domain.csproj": {
-                "projectPath": "D:\\study_tech\\angular\\MiniCoreBanking\\be\\CoreBanking.Domain\\CoreBanking.Domain.csproj"
+              "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Domain\\CoreBanking.Domain.csproj": {
+                "projectPath": "D:\\Study\\Angular-cert\\Code\\MiniCoreBanking\\be\\CoreBanking.Domain\\CoreBanking.Domain.csproj"
               }
             }
           }
@@ -210,12 +204,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.11, )"
@@ -241,7 +239,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
