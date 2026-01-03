@@ -1,0 +1,16 @@
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="card p-4 shadow" style="width: 400px;">
+    <h3 class="text-center mb-4">🏦 E-Banking Login</h3>
+    
+    <div class="mb-3">
+      <label class="form-label">Nhập Số Tài Khoản của bạn</label>
+      <input type="text" class="form-control" [(ngModel)]="accountNumber" placeholder="Ví dụ: 10123456">
+    </div>
+
+    <button class="btn btn-primary w-100" (click)="onLogin()">Truy cập</button>
+    
+    <div class="mt-3 text-muted small text-center">
+      *Lưu ý: Nhập đúng số tài khoản bạn đã tạo ở Backend.
+    </div>
+  </div>
+</div>

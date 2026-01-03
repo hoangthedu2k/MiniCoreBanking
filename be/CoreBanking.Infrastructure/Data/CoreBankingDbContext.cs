@@ -20,6 +20,8 @@ namespace CoreBanking.Infrastructure.Data
         public DbSet<Account> Accounts { get; set; }
         public DbSet<Customer> Customers { get; set; }
 
+        public DbSet<User> Users { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder) // Corrected with 'override' keyword  
         {
             base.OnModelCreating(modelBuilder);
@@ -42,6 +44,13 @@ namespace CoreBanking.Infrastructure.Data
             modelBuilder.Entity<Customer>(entity =>
             {
                 entity.HasIndex(c => c.Email).IsUnique();
+            });
+            modelBuilder.Entity<User>(entity =>
+            {
+                
+                entity.HasIndex(u => u.Email).IsUnique();
+                entity.HasIndex(u => u.Username).IsUnique();
+
             });
         }
     }

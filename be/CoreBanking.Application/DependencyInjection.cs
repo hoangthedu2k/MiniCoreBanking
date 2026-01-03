@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using CoreBanking.Application.Services;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace CoreBanking.Application;
 
@@ -8,7 +9,7 @@ public static class DependencyInjection
     {
         // Đăng ký MediatR: Tự động tìm tất cả Handler trong project này
         services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(DependencyInjection).Assembly));
-
+        services.AddScoped<IInterestService, InterestService>();
         return services;
     }
 }

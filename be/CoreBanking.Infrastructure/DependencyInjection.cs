@@ -25,6 +25,7 @@ namespace CoreBanking.Infrastructure
 
             services.AddSignalR();
             services.AddScoped<INotificationService, Services.SignalRNotificationService>();
+            
             return services;
         }
     }
