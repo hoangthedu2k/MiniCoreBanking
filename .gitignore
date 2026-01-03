@@ -49,3 +49,7 @@ yarn-error.log*
 /be/.vs
 /be/CoreBanking.Infrastructure/bin
 /be/CoreBanking.Infrastructure/obj
+/be/CoreBanking.Application/bin
+/be/CoreBanking.Application/obj
+/be/CoreBanking.Domain/bin
+/be/CoreBanking.Domain/obj
